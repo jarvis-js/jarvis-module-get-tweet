@@ -1,0 +1,24 @@
+{
+  "name": "jarvis-module-get-tweet",
+  "version": "0.1.0",
+  "description": "Listens for tweet links and retrieves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexwhitman/jarvis-module-get-tweet.git"
+  },
+  "keywords": [
+    "Jarvis",
+    "twitter",
+    "tweet"
+  ],
+  "author": "Alex Whitman <alex@alexwhitman.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "twit": "~1.1.5"
+  }
+}
