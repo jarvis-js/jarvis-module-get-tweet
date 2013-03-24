@@ -29,7 +29,7 @@ module.exports = function(jarvis, module) {
 					});
 				}
 
-				jarvis.reply(message, '@' + reply.user.screen_name + ': ' + text);
+				jarvis.say(message, '@' + reply.user.screen_name + ': ' + text);
 			});
 		}
 	}));
